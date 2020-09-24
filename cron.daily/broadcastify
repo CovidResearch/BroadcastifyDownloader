@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /code/BroadcastifyDownloader
+
+for feed in 18435 18556 28416 30508; do 
+    time ./broadcastify download $feed $(date --date=yesterday +"%Y-%m-%d")
+done
