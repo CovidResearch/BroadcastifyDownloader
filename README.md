@@ -12,6 +12,19 @@ The Broadcastify Downloader Project is meant to quickly bulk download archived E
 composer install
 ```
 
+Edit `.env` and add your Broadcastify.com authorization cookie.
+
+```
+BROADCASTIFY_COOKIE=""
+```
+
+How to get that cookie is beyond the scope of this project. 
+I am willing to get your cookie for you for $100.00 and train you how.
+
+From my experience, the cookie lasts indefinitely if you use the downloader
+at least once every 60 days. But the guys @ broadcastify could change this
+at any time.
+
 ## Usage
 
 ```bash
